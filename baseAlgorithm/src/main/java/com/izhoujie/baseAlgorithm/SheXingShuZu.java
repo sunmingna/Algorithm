@@ -10,7 +10,7 @@ package com.izhoujie.baseAlgorithm;
  */
 public class SheXingShuZu {
 
-	// 控制循环方向的数组指针：左、下、右、上
+	// 控制循环方向的数组指针：右、下、左、上
 	private static int[][] index = new int[][] { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
 
 	public static void main(String[] args) {
